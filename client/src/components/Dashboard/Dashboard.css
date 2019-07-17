@@ -29,31 +29,14 @@ body {
     width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 110px 110px 110px;
+    grid-template-rows: 200px 200px 200px;
     padding: 2px;
+    justify-content: center;
+    align-content: stretch;
   }
-  
-  .sound-card {
-    width: 200px;
-    background-color: #F4BBD3;
-    color: #fff;
-  }
-  
-  div.sound-card:nth-of-type(odd) {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  .image-container {
-    max-width: 40px;
-    float: left;
-    padding-left: 10px;
-  }
-  
-  .count {
-    height: 40px;
-    padding-left: 60px;
-    line-height: 45px;
+
+  .button {
+    place-self: end;
   }
   
   @media only screen and (max-width: 899px) {

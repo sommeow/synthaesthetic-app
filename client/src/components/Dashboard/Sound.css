@@ -1,0 +1,21 @@
+.sound-card {
+    width: 200px;
+    background-color: #F4BBD3;
+    color: #fff;
+  }
+  
+  div.sound-card:nth-of-type(odd) {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .image-container {
+    max-width: 40px;
+    float: left;
+  }
+
+  .count {
+    height: 40px;
+    padding: 60px;
+    line-height: 45px;
+  }
