@@ -33,7 +33,7 @@ render() {
     const { user } = this.props.auth;
 return (
       <div style={{ height: "75vh" }} className="container valign-wrapper">
-        <div className="appContainer">
+        <div className="">
           <div className="greet">
           <h4>
               <b>Hey there,</b> {user.name.split(" ")[0]}
@@ -42,8 +42,8 @@ return (
             <div className="soundBoard">
             <Board sounds={this.state.sounds} audio={this.state.audio}/> 
             </div>
-            <div className="button">
-            <button
+            <div className="button center">
+            <button 
               style={{
                 width: "150px",
                 borderRadius: "3px",
