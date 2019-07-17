@@ -6,16 +6,12 @@ class Navbar extends Component {
     return (
       <div className="navbar-fixed">
         <nav className="z-depth-0">
-          <div className="nav-wrapper white">
+          <div className="nav-wrapper black">
             <Link
               to="/"
-              style={{
-                fontFamily: "monospace"
-              }}
-              className="col s5 brand-logo center black-text"
+              className="col s5 brand-logo center green-text"
             >
-              <i className="material-icons">code</i>
-              MERN
+              <img src='https://i.imgur.com/dwkfl3Y.png' length="1498" width="500" alt="Synth aesthetic Logo" />
             </Link>
           </div>
         </nav>
